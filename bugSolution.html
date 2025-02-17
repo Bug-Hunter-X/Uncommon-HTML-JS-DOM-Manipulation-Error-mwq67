@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv"></div>
+
+  <script>
+    // Correctly access and modify the DOM element after it has been added
+    const myDiv = document.getElementById("myDiv");
+    myDiv.innerHTML = "This text will now appear correctly"; 
+  </script>
+</body>
+</html>
